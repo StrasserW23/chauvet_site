@@ -5,3 +5,19 @@ ul li {
 ul {
   flex-direction: row;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 1em;
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
