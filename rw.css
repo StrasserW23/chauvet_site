@@ -1,0 +1,7 @@
+ul li {
+  font-size: 200%;
+}
+
+ul {
+  flex-direction: row;
+}
