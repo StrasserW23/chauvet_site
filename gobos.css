@@ -40,14 +40,5 @@ h2 {
 }
 
 p {
-  margin-bottom: 16px; /* You can adjust the value as needed */
-}
-
-footer {
-  background-color: #111;
-  color: #fff;
-  text-align: center;
-  padding: 1.5em;
-  margin-top: 2em;
-  font-size: 0.9em;
+  margin-bottom: 16px; 
 }
