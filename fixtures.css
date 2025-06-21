@@ -27,49 +27,25 @@ h2 {
 }
 
 .fixture {
-  margin-bottom: 2em;
+  margin-bottom: 40px;
 }
 
 .content-pair {
   display: flex;
-  gap: 1em;
   align-items: flex-start;
-  flex-wrap: wrap; /* Makes it mobile-friendly */
+  gap: 20px;
 }
 
 .content-pair img {
-  max-width: 250px;
+  width: 300px;
   height: auto;
+  object-fit: cover;
   border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .content-pair p {
-  flex: 1;
-  margin: 0;
-}
-
-.fixture-content img {
-  max-width: 300px;
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.fixture-content div {
-  flex: 1;
-  min-width: 300px;
-}
-
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5em;
-  padding: 2em;
-  max-width: 1000px;
-  margin: auto;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba 0, 0, 0, 0.;
+  max-width: 600px;
+  font-size: 16px;
+  line-height: 1.6;
 }
