@@ -96,3 +96,12 @@ footer {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+
+.text-content p:last-of-type {
+  margin-bottom: 0.5em; /* Reduce bottom space */
+}
+
+.text-content h2:nth-of-type(3) {
+  margin-top: 0.3em; /* Reduce top space of 'Gobos in Chauvet Fixtures' heading */
+}
